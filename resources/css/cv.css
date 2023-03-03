@@ -1,0 +1,47 @@
+#About-me{
+    margin: 5% 10%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#About-me div{
+    padding: 5% 0;
+    margin: 5% 10%;
+    margin-right: 30%;
+
+}
+
+#About-me h1,#About-me p,#Education h1,#Education p,#Education h2{
+    color: #141414;
+}
+
+#About-me img{
+    width: 40%;
+    height: 60vh;
+    margin-top: -8vh;
+    float: right;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+
+#Skills,#Contact{
+    margin:0% 10%;
+    width: 40%;
+    
+}
+#Skills p,#Contact p,#Skills h1,#Contact h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+#Education{
+    margin: 0 10%;
+    width: 35%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    float: right;
+    margin-top: -25%;
+}

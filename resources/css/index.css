@@ -1,0 +1,155 @@
+/* -- typography -- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif, Arial, Helvetica, Georgia, Sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-color: #141414;
+  height: 100%;
+}
+html, body {
+  scroll-behavior: smooth;
+    scroll-snap-type: y;
+}
+
+@media (max-width: 800px) {
+  html, body {
+  overflow-x: hidden;
+  }
+}
+/* colors : 141414 3483dd 9EBDE1  FE3D01  FFFFFF */
+p,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #FFFFFF;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, Georgia, Sans-serif;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+h4,
+h5 {
+  font-size: 1.1em;
+}
+p {
+  font-size: 1em;
+}
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+}
+button {
+  border-radius: 10px;
+  color: #FFFFFF;
+  background: #3483dd;
+  border: solid #FFFFFF 1.5px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px 20px;
+  text-decoration: none;
+  transition: 0.9s ease-in-out;
+  margin-top: 5vh;
+}
+button:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #3483dd;
+  border: solid #3483dd 1.5px;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  opacity: 0.9;
+  color: #9EBDE1;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* header */
+
+a.active {
+  color: #9EBDE1;
+}
+a:hover {
+  text-decoration: none;
+  outline: none;
+  opacity: 0.9;
+  color: #9EBDE1;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .NavBar .navLinks,.NavBar img,  .scrolldown,.no-mobile {
+    visibility: hidden;
+  }
+  .NavBar .mobile .mobile-img,.mobile{
+    visibility: visible;
+  }
+}
+
+/* -- navbar -- */
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+}
+header .left{
+    margin-right: auto;
+}
+header li{
+    padding: 0px 10px;
+    display: inline-block;
+}
+header .mid{
+    margin-right: 50%;
+}
+header .mid li{
+    padding: 0px 30px;
+}
+
+
+/* Footer */
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0f0f0f;
+  color: #FFFFFF;
+  text-align: center;
+  font-size:0.8em;
+}
+footer p {
+  margin: 0px;
+  padding: 10px;
+}

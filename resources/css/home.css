@@ -1,0 +1,21 @@
+section{
+    margin: 5% 10%;
+    height: 63vh;
+}
+section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+section div{
+    margin-top: 5%;
+    margin-right: 55%;
+}
+section img{
+    margin-top: -5%;
+    object-fit: contain;
+    width: 50%;
+    height: 60vh;
+    float: right;
+}

@@ -5,29 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online CV</title>
-
+    <link rel="stylesheet" href="resources/css/index.css" />
+    <link rel="stylesheet" href="resources/css/cv.css" />
     <link
       rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
   </head>
   <body>
     <header>
-      <div>
+      <div class="left">
         <img src="images/logo.png" alt="logo" />
       </div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
+      <ul class="mid">
+        <li><a href="index2.html">Home</a></li>
         <li><a href="cv.html">CV</a></li>
-        <li><a href="contact.html">Weekly Schedule</a></li>
+        <li><a href="weekly-schedule.html">Weekly Schedule</a></li>
       </ul>
       <div>
-        <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-phone" aria-hidden="true"></i></a>
+        <ul>
+          <li>
+            <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </header>
 
+
     <section id="About-me">
+      <img src="images/3.webp" alt="me" />
+      <div>
       <h1>Marc Jalkh</h1>
       <p>
         A second-year Computer Science undergraduate student. A technology
@@ -36,43 +43,30 @@
         SQL, and Java. Decent in data structures and database administration,
         familiarity in reading UML Diagram.
       </p>
-      <img src="images/me.png" alt="me" />
+    </div>
     </section>
 
     <!--Skills and contact on the left-->
-    <section id="Skills">
-      <h1>Skills</h1>
-      <div>
-        <h2>Programming Languages</h2>
-        <p>HTML, CSS, JS, PHP, SQL, Java</p>
-      </div>
-      <div>
-        <h2>Frameworks</h2>
-        <p>Node JS, React JS</p>
-      </div>
-      <div>
-        <h2>Tools</h2>
-        <p>Git, Github, VS Code, Eclipse, Netbeans</p>
-      </div>
-    </section>
     <section id="Contact">
-        <h1>Contact</h1>
-        <div>
-            <h2>Address</h2>
-            <p>Beirut, Lebanon</p>
-        </div>
-        <div>
-            <h2>Phone</h2>
-            <p><a href="tel:+96181377173">+961 81377173</a></p>
-        </div>
-        <div>
-            <h2>Email</h2>
-            <p><a href="mailto:marc.s.jalkh@net.usek.edu.lb">marc.s.jalkh@net.usek.edu.lb</a></p>
-        </div>
-    </section>
-    
-    <!--Education on right-->
+      <h1>Contact:</h1>
+      <br/>
+      <div>
+          <p>Address: Beirut, Lebanon</p>
+      </div>
+      <div>
+          <p><a href="mailto:marc.s.jalkh@net.usek.edu.lb">Email: marc.s.jalkh@net.usek.edu.lb</a></p>
+      </div>
+  </section>
 
+    <section id="Skills">
+      <h1>Skills:</h1>
+      <br/>
+        <p>HTML, CSS, JS, PHP, SQL, Java</p>
+        <p>Node JS, React JS</p>
+        <p>Git, Github, VS Code, Eclipse, Netbeans</p>
+    </section>
+<br/>
+    <!--Education on right-->
     <section id="Education">
       <h1>Education</h1>
       <div>
@@ -86,6 +80,10 @@
         <p>June 2020</p>
       </div>
     </section>
-    
+<br/>
+    <footer>
+      <p>Copyright       <a href="http://github.com/Marc-jalkh">Marc</a>        <span>2023</span></p>
+    </footer>
+
   </body>
 </html>
