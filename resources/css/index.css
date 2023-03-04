@@ -10,6 +10,9 @@ body {
   height: 100%;
 }
 html, body {
+  display: flex;
+  flex-direction: column;
+
   scroll-behavior: smooth;
     scroll-snap-type: y;
 }
@@ -140,10 +143,9 @@ header .mid li{
 /* Footer */
 
 footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  margin-top: auto;
+  height: auto;
+  width: 100vw;
   background-color: #0f0f0f;
   color: #FFFFFF;
   text-align: center;

@@ -1,7 +1,11 @@
+section:hover{
+    box-shadow: 1px 1px 10px 5px #9EBDE1;
+    transition: 0.5s;
+}
 #About-me{
-    margin: 5% 10%;
+    margin: 2% 10%;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #About-me div{
@@ -25,23 +29,66 @@
 }
 
 
-#Skills,#Contact{
-    margin:0% 10%;
-    width: 40%;
-    
+#CV{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap ;
+    margin: 0% 8%;
+    margin-bottom: 5%;
 }
-#Skills p,#Contact p,#Skills h1,#Contact h1{
+
+#Skills,#Education,#Langs,#git,#Cont{
+    margin: 1% 2%;
+    border-radius: 20px;
+}
+#Skills,#Education{
+    width: 46%;
+}
+
+#Education{
+    background-color: #ffffff;
+}
+#Skills p,#Skills h1{
     color: #fff;
     margin: 0;
     padding: 0;
 }
+.content{
+    padding: 5% 10%;
+    margin: 0;
+}
 
+#Langs{
+    width: 15vw;
+    height: 75%;
+    margin-top: 2%;
 
-#Education{
-    margin: 0 10%;
-    width: 35%;
-    background-color: #ffffff;
-    border-radius: 15px;
+}
+#git,#Cont{
+    border: solid 2px;
+    width: 60vw;
+    margin-top: 3%;
+    height: 30%;
+}
+#git{
+    box-shadow: 0 0 5px 2.5px #9EBDE1;
+    border-color: #9EBDE1;
+}
+#Cont{
+    box-shadow: 0 0 5px 2.5px #FE3D01;
+    border-color: #FE3D01;
+}
+@media screen and (max-width: 700px) {
+    #Skills,#Education,#git,#Cont,#Langs{
+        width: 100%;
+    }
+}
+.right{
+    margin-top: -0.5em;
+    font-size: 2em;
     float: right;
-    margin-top: -25%;
 }

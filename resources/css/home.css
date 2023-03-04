@@ -1,9 +1,9 @@
 section{
     margin: 5% 10%;
-    height: 63vh;
+    height: 100%;
+    min-height: 63vh;
 }
 section button{
-    display: flex;
     justify-content: center;
     align-items: center;
     margin: 2% 0;
