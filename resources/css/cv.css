@@ -64,13 +64,13 @@ section:hover{
 
 #Langs{
     width: 15vw;
-    height: 75%;
+    height: 70%;
     margin-top: 2%;
-
+    margin-left: 10%;
 }
 #git,#Cont{
     border: solid 2px;
-    width: 60vw;
+    width: 55vw;
     margin-top: 3%;
     height: 30%;
 }
@@ -82,9 +82,12 @@ section:hover{
     box-shadow: 0 0 5px 2.5px #FE3D01;
     border-color: #FE3D01;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     #Skills,#Education,#git,#Cont,#Langs{
         width: 100%;
+    }
+    .right{
+        display: none;
     }
 }
 .right{
