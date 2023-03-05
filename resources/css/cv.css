@@ -21,6 +21,7 @@ section:hover{
 
 #About-me img{
     width: 40%;
+    min-height: 250px;
     height: 60vh;
     margin-top: -8vh;
     float: right;

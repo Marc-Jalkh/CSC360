@@ -138,6 +138,7 @@ header .mid{
 @media screen and (max-width: 800px) {
   header .mid{
     margin-right: 0%;
+    margin-left: 75px;
   }
 }
   
